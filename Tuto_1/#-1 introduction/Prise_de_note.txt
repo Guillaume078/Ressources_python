@@ -1,0 +1,5 @@
+					Introduction
+
+Python est un langage de programmation interprété. inventer en 1990 par Guido Van Rossum, python est un langage de haut niveau, libre, accessible, portable et compatible avec les autres langages.
+Il intervient dans plusieur domaines tels que : dans le developpement  de jeux video, de site web, dans l'administration. Du faite de sa compatibilité avec les autres langage on peut l'utiliser dans d'autre logiciel.
+
