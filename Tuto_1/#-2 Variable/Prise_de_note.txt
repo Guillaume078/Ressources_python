@@ -1,0 +1,4 @@
+			      Variable
+
+Une variable est une boite noire qui vas stocker des valeurs temporairement dans un programme. Python utilise le typage dynamique donc pas besoin de d'indiquer le type d'une variable lors de sa création.
+Le nom d'une variable doit representer une entité. 
