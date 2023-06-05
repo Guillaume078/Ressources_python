@@ -2,3 +2,10 @@
 
 Une variable est une boite noire qui vas stocker des valeurs temporairement dans un programme. Python utilise le typage dynamique donc pas besoin de d'indiquer le type d'une variable lors de sa création.
 Le nom d'une variable doit representer une entité. 
+Le nommage des variable se fait en suivant des règles :
+	-- Le nom d'une variable ne doit pas composer d'espace.
+	-- Le nom d'une variable ne doit pas débuter par un caractère  		   alphanumérique.
+	-- il est interdit d'utiliser les mots de python pour nommer les 	   variable (def, if, else, class...)
+En python il est possible d'attribuer des valeurs à des variables sur une ligne, affecter la même variable à plusieur variable sur une ligne.
+
+
