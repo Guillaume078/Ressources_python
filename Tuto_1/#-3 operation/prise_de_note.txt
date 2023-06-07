@@ -1,0 +1,51 @@
+			Les Operateurs
+
+Les operateurs sont utilises pour effectuer des operarions sur des valueurs et des varaiables.
+
+Python dispose de 7 groupes d'opérateur:
+
+ -- Les opérateurs Arithmétiques
+  (+) L'addition
+  (-) La soustraction
+  (/) La division
+  (%) Le modulo
+
+ -- Les opérateurs d'Affectation
+  (=)
+  (+=) 
+  (-=) 
+  (*=)
+  (/=) 
+  (%=) 
+  (//=)
+  (**=) 
+  (&=) 
+  (|=) 
+  (^=) 
+  (>>=) 
+  (<<=) 
+
+ -- Les opérateurs de comparaison
+   (==)
+   (<=)
+   (>=)
+   (!=)
+   (<)
+   (>)
+ -- Les opérateurs logique
+   (Or)
+   (and)
+   (not)
+ -- Les opérateurs d'identité
+   (is)
+   (is not)
+ -- Les opérateurs d'adhésion
+   (in)
+   (not in)
+ -- Les opérateurs binaire
+   (&)
+   (|)
+   (~)
+   (<<)
+   (>>)
+   
