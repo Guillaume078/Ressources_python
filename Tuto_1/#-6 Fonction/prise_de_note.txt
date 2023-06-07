@@ -1,0 +1,11 @@
+
+Structure d'une fonction
+
+def nom_de_la_fonction(paramètres) :
+	Corps de la fonction...
+
+def nom_fonction(*items) : Avec *items la fonction peut prendre plusieur paramètres.
+
+Les fonction lambda : peut prendre des paramètres et une expression puis retourne la valeur de l’expression lambda
+Exemple : lambda:print(“bonjour”)
+          lambda: 2+3
