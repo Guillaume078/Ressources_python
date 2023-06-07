@@ -1,0 +1,9 @@
+
+                            Modularité
+
+Un module contient des fonctions et des constantes, il permet d’organiser son code.
+Dans la bibliothèque standard : math
+
+Pour l’importation : import nom_module, from nom_module import nom_fonction, from nom_module import *....
+--Créer un module :  créer un fichier et le nommer avec l’extension (.py), un dossier Pycache se crée automatiquement.
+If __name__ == “__main__” permet d’exécuter un programme à partir du fichier courant.
