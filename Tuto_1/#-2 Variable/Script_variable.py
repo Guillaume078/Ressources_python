@@ -6,7 +6,7 @@ age = 7
 
 ###  Affichage
 
-print(nom_utilisateur, age + " ans")
+print(nom_utilisateur, age , " ans")
 
 ### Assigantion multiple
 nom, Prenom, universite, age, moyenne = "Ilboudo", "Guillaume", "Aube nouvelle", 2, 18.9
