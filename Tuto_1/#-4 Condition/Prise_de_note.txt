@@ -1,0 +1,18 @@
+                Conditions
+
+Mot clés des conditions
+if/ elif / else
+
+Operateur de comparaison : 
+•	== égal a 
+•	!= diffèrent de
+•	< plus petit que
+•	> plus grand que
+•	<= plus petit ou égal a
+•	>= plus grand ou égal a
+  Conditions multiples:
+•	And (et)
+•	Or (ou)
+•	In / not in (dans / pas dans)
+
+
