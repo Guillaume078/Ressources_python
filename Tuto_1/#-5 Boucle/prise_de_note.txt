@@ -1,0 +1,4 @@
+Utiliser pour repeter une tâche.
+Mot clés des boucles
+•	While (condition) :
+•	For compteur  in intervalle :
