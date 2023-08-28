@@ -1,0 +1,11 @@
+Les Structures conditionnels
+•	If (la condition si) if utilisateur == “admin”:
+•	elif (la condition sinon si) elif utilisateur == “root”:
+•	else (sinon) else:
+•	Les operateurs ternaires 
+    -	Majeur = True if age  >= 18 else False (pour condition simple et non complexe )
+•	Les operateur logique
+    -	And : et
+    -	Or : ou
+    -	Not : pas
+(permet de regrouper deux condition ex : 5>2 and 5<10 = True)
