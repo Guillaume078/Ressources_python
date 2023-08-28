@@ -1,0 +1,62 @@
+############  Structure repetitive ##############
+La Structure repetitive(Boucle) permet d'executer plusieur 
+fois une sequence d'instructions.
+Dans une boucle , le monde de repetitions peut etre connu, fixé à l'avance, comme il peut
+dépendre d'une condition permettant l'arret et la sortie de cette boucle.
+
+
+----  La boucle for ------
+le nombre de répétition peut etre connu.
+permet d'éxécuter une sequence d'instruction. et le nombre de fois connu fixé à l'avance.
+syntaxe :
+for i in sequence:
+    instruction_1
+    instruction_2
+
+les sequence sont : list, dictionnaires, tuples, chaine de caractere.
+Exemple : 
+for i in "Maroc":
+    print(i)
+
+
+
+--- La boucle while -------
+le nombre de répétition dépend d'une condition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

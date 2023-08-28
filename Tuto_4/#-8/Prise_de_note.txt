@@ -1,0 +1,44 @@
+Un programme permet de realiser une tache il prend en entrer des donnee et fournis des resultat
+
+
+Une fonction est une suite d'instruction regroupees sous un nom ; elle peut prend en entree des parametres (arguments)
+et retourne un résultat.
+
+il faut dabord definir la fonction pour ensuite l'appélé
+
+
+definition d'une fonction en python
+
+def nom_fonction(arg1, arg2, ...):
+    instruction_1
+    instruction_2
+    ...
+    return resultat.
+
+
+il ya quatre type de definition:
+---- Pas de retour d'arguments
+---- Pas de retour et avec arguments
+---- Avec retour et pas d'arguments
+---- Avec retour et avec arguments
+
+en fonction des definition on a aussi 4 type d'appelle de fonction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

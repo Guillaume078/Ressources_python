@@ -1,0 +1,29 @@
+Les variable Local et les variable global
+
+une variable local est une variable qui est fonctionnelle dans une partie du programme
+une variable global est une variable qui est accessible dans tous les parties du programme est aussi une variable definit en dehors de tous les fonctions
+les variable global sont accessible uniquement que en lecture dans une fonction
+
+pour pouvoir modifier une variable global dans une fontion il le redefinir avec le mot cle global dans la fontion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

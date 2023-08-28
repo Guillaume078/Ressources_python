@@ -1,0 +1,98 @@
+############ Descripttion et Utilité ############################
+A la fin de 1989 un programmeur de nom Guido Van Rossum, a travailler dans lequipe du systeme d'exploiration amoebaos 
+A lepoque il fallait utilise C ou le scripte shell pour developper des logiciel qui fonctionneront sur ce sysyteme dexploitation,
+la complexite de c et  shell insiste Guido a developper python. 
+profitant dune semaine de vaccance durant les fete de noel Guido a travailer python qu'il a publie la premiere version en fevrier 1991 (0.9), apres 30 ans il arrive a python 3.9
+contrairement a c, c++ qui sont des language compile, python un language interprete cest a dire que le ;programme est executer directement sans passer par la compilation
+
+
+Raison
+
+--- Simplicite (sa synstaxe est proche a la langue anglaise)
+--- Une importante Communauté (il est le plus recherche et installer), en cas de probleme il est facile de trouver la solution rapidement sur <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+--- son ecosysteme il possede un grand nombre de bibliotheque (donc il est facile de trouver une bibliotheque de son domaine --mathematique, datascintist etc...---)
+--- python est multi-platforme (un programme python peut s'excuter sur plusieur platforme)
+--- Multi-paradigme cest a dire quil prend en charge plusieur style de programmation (imperative, fonctionnel, Orientee objet)
+--- La plus part des entreprise utilise  python (instagrame, netflix, dropbox, pinterest, spo0tifi, uber etc...)
+
+Salire
+-- 41 917  en france
+-- 75 000 $ au canada
+-- 117 392 $ USA
+
+Utilisation
+-- est utilise comme un language de script (pour automatiser les taches)
+-- est utiliser dans le domaine sceintifique (il existe une bibliotheque pour chaque domaine -- bioPython, astropy, Dask,PsychoPY sunPy, etc..)
+-- utiliser dans la science de donnee qui comporte la visualisation et lanalyse il sappuit sur des outils statistiaque,  mathematique lobjestif est : collecter, netoyer, analyser , identifier (pandas, numpy,matplodi, scipy, seaborn,beautifulsoup, potly ect... )
+-- utiliser dans le domaine de lintelligenc artificielle( vise a rendre les machine intelligentes dans le but de creer un systeme qui se comporte comme un humain), cela comporte les domaine telque (la robotique, la recherche dinformation, la vision par ordinateur , la traduction par ordinateur etc...)
+Les deux axes de recherche connues sont  : lapprentissage autimatique( macine learning = apprendre appartir des donnee) et lapprentissage profond(une nouvel facon danalysee de grande quqntite de donne ,Deep learning..., ex: Alexa ou Google tanslate etc.. )
+La disponibilte des biblitheque open source il est le choix ideal pour developperser des ia avec(TrensorFlow, Keras, Scikit Learn, PyTorch)   
+-- utiliser dans le Big Dataavec (hadoop, appach spark) ( englode un ensemble de technologie, de methode et de pratique pour stocker et analyser de tres grande masse de donne  )
+-- utiliser dans le developpement web avec (Django,Flask deux framework de developpement dapplication web cote serveur) 
+-- Utiliser dans le developpent de jeux, logiciel embarque (mais c#,java, et C++ domine python sur ces domaine )
+
+Ce que les recruteur recherche 
+-- La maitrise du language python
+
+
+Structure de la formation 
+
+Instruction de base 
+Structures conditionnelles 
+Structures Repetitives
+Fonction et modules
+Structure de donnees
+Chaine de caractere
+Gestion de fichiers
+Conceptes avances
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

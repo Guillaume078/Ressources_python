@@ -1,0 +1,47 @@
+###########   Les esxpression ############
+
+------- Les expression Arithmetique  ----------
+
+exemple = A = 12 + B, avec B = 3
+
+est forme par des combinaison d'objet numerique (entier, reel) et des operateurs arithmetique dont un resultat numerique
+Les operateur disponible sont : +, -, #, %, /, //, ** ,, Les operateur arithmetique composé : +=, -=, *=, /=, %=, //= **=
+L'operateur addition permet de faire la concatenation sur les chaine de caractere
+
+
+----------- Les Expression de comparaison ----------
+une expression de comparaison contient un operateur de comparaison
+donne un resultat de type Boolean
+Les operateur disponible sont  : >, < , ==, >=, <=, != ...
+
+
+-------------- Les expression loiques ---------------------
+dans une expresion logique on utilise un operateur logique le resultat est de type Boolean
+les operateur disponible sont : and, or, not...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

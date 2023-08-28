@@ -1,0 +1,75 @@
+####################   Les structure conditionnelles   ###############3
+
+------- Exercice Programme de la division --------
+
+
+---------- Les stucutre conditionnelle simple (un choix)
+Syntxe : 
+if condition :
+        instruction_1
+        instruction_2
+
+---------- Structure alternative (deux choix)
+syntaxe :
+if Condition:
+    instruction_1
+else:
+    instruction_1
+    instruction_2
+
+
+---------- Structure a choix multiple ------------
+syntaxe :
+
+if condition :
+    instruction_1
+elif condition:
+    instruction_2
+else: 
+    instruction_3
+
+
+----------- Structure imbriquée -------------------
+if condition_1:
+    instruction_5
+else:
+    if condition_#:
+        instruction_9
+    else :
+        inrstruction_10
+
+
+------------- Operateur Ternaire --------
+permet de simplifier la syntaxe de la structure conditionnelle.
+on peut l'utiliser que juste avec deux choix ...
+
+exemple : A if A >= B else B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

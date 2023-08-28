@@ -1,0 +1,20 @@
+Les modules et package
+
+
+
+Modules 
+
+Les modules sont utilises pour décomposer les grands programmes en petits fichiers gérables et organisés. De
+plus, les modules permettent la réutilisation du code.
+Nous Pouvons définir nos fonction les plus utilisées dans un module et l'importer, au lieu de copier leurs
+définitions dans différents programmes
+
+Paquet
+
+Un paquet est un ensemble de plusieurs modules
+regroupés dans le même dossier.
+
+Un paquet est importé et utilisé de la même manière que les modules
+
+Un paquet doit contenir un fichier nommé __ini__.py pour que python 
+le considère comme un paquet. Ce fichier peut simplement être un fichier vide.

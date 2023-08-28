@@ -1,0 +1,37 @@
+Les types d'argument requis, par defaut et avec etiquettes
+
+Les typage des parametres
+
+Vous pouvez appeler une fonction en utilisant l'un des types d'arguments formels suivants:
+-- Arguments réquis ce sont des arguments passés à une fonction dans l'ordre de position correct. 
+Ici, le nombre d'arguments dans l'appel de fonction doit correspondre exactement à la définition de la fonction 
+
+-- Arguments par defaut  exemple : def soustraction(A, b=0):
+C'est un argument par defaut est un argument qui prend une valeur par defaut lors de la definition d'une fonction si une valeur
+n'est pas fournie dans l'appel de fonction pour cet argument
+
+-- Arguments avec étiquettes (mot-clé) : cette patie intervient au niveau de l'appelle de la fonction
+ils sont lies aux appels de fonction. Lorsque nous appelons des fonctions de cette maniere, l'ordre (position)
+des argument peut etre modifié.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

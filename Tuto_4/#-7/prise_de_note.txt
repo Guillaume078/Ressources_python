@@ -1,0 +1,19 @@
+L'instruction break permet d'arrêter le déroulement d'une boucle, et 
+de passer à l'instruction qui suit cette boucle.
+
+syntaxe : boucle ....:
+            ...
+            break
+            ...
+
+
+L'instruction continue permet d'ignorer l'itérattion actuelle de la boucle et de passer à l'itération suivante.
+
+syntaxe : 
+
+    Boucle ...:
+        ... 
+        Continue 
+        ...
+
+    ...

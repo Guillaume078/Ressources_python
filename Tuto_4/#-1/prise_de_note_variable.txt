@@ -1,0 +1,26 @@
+##################   Variable   #######################
+
+une variable est une variable qui pourrait changer durant lexecution dun programme
+Une variabla un type  (int, string, boolean, float , double, complex, list , etc...) En python une variable peut etre aussi une conatante
+la variable est defini par deux chose (nom, valeur)
+Python possede la syntaxe la plus facile pour definir les variables exemple etudiant = 4, Pi = 3.14
+
+Pour nommer les variables 
+
+Le nom de la variable ne doit commencer par un nombre
+Eviter les mots réserves par Python (print, input etc...)
+Python est sensible a la casse ce qui signifie que NOTE et note sont différentes
+
+
+Python permet daffecter des valeurs a plusieur variable sur une seule ligne
+Exemple : a, b = 5, 10 ; a, b, c = "Orange", "Banane", "Avocat"
+
+
+
+
+
+
+
+
+
+

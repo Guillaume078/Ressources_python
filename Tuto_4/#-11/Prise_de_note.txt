@@ -1,0 +1,36 @@
+Les modules sont utilisés pour décomposer les grands programmes en petits fichiers gérables et organisés. 
+De plus, les modules permettent la réutilisation du code. 
+
+Nous pouvons definir nos fonction les plus utilisées dans un module et l'importer,
+au lieu de copier leurs définitions dans differents programmes.
+
+
+l'importation d'un fichier : from nom_du_fichier import *
+                           : from nom_du_fchier import nom_de_la_fonction, etc...
+                           : import fonctions
+                           : from fonctions import nom_de_la_fonction as s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+La fonction input() permet d'interargir avec l'utilisateur (permet la saisie des information par l'utilisateur) = (recupere les donnees saisie)
+Chaque information donnee par l'utilisateur doit être stocker dans une variable exemple = nom_var = input("Bonjour !! comment tu t'appelle ?")
+quelque soit la valeur recuperer elle toujours considere comme une valeur de type string..
+IL faudra parser la valeur avant utilisation
+
+La fonction Print() permet d'afficher un message l'écran pour l'utilisateur
+print peut afficher une chaine de caractere, un nombre , un boolean , une liste etc.. exemple : Print(2, "fois", 4 ,"= 8")
+
+
+
+
+
+
+
+
+
+
+
+
+
+

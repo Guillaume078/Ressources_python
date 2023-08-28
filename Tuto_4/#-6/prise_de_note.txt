@@ -1,0 +1,44 @@
+La boucle while 
+Cette boucle permet de repeter un bloc d'instruction tant q'une condition est vraie
+
+syntaxe :
+
+    while Condition:
+        instruction_1
+        instruction_2
+
+
+mots réservé "while"
+. -- Condition
+. -- Deux points ":"
+. -- Instruction indentés qui seront exécutées tant que la condition est vraie
+. -- Suite du programme
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
