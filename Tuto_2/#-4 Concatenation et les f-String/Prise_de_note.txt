@@ -1,0 +1,8 @@
+La concaténation et les f-string
+•	Les f-string
+o	print(f"L'annee prochaine j'aurai {age+1} ans")
+
+•	La méthodes .format()
+o	print("jai {b} ans".format(b=age))
+
+tous ce qui se trouver dans les f-string doivent être définis avant d’être utiliser ce qui n’est pas le cas avec la méthode format.
