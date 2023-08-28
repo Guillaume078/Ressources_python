@@ -1,0 +1,7 @@
+La programmation asynchrone
+
+
+Elle est différente de la programmation séquentielle(permet d’exécuter deux fonction en même temps de manière parallèle), 
+le module  threading contient la classe thread qui permet de gérer les processus (Exécuter deux processus en même, 
+de placer un verrou sur un processus lors du déclenchement de deux processus simultané pour quelle s’exécuter totalement 
+avant que le processus suivant ne soit déclencher).
