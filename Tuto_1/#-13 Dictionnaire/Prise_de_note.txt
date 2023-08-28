@@ -1,0 +1,11 @@
+Les dictionnaires
+Est comme une liste qui travaille avec des clef au lieu de d’indice. Pour les dictionnaires on a des accolades
+
+Déclaration : 
+    dico = {1:145, “prenom”:”Jason”}
+Accès a un élément : 
+    print(dico[“prenom”])
+Possibilité d’ajout, de modification, de suppression
+    Ajout : dico [“ma_clef”] = “ma_valeur”
+    Suppression : dico.pop(“chien”) 
+    Fonction : dico2 = dico.copy() .. copy le doc dans dico2 
