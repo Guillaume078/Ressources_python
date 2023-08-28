@@ -1,0 +1,48 @@
+Les fichiers
+Gestion des fichier :  créer, modifier, supprimer
+
+Ouverture :: mode d’ouverture : 
+	r (lecture seul)
+	w (écriture et remplacement)
+	a(écriture  avec ajout a la fin)
+	x(lecture et ecriture)
+	r+(lecture , écriture dans un même fichier)
+
+La fonction open() : retourne un objet fichier permet de travailler et d’interagir avec un fichier. elle prend en paramètre le chemin du fichier ainsi que son nom et le mode lecture. Exemple : fic = open(“chemin”, mode).
+La fonction read() : indique à Python que vous souhaitez lire le contenu du fichier entier dans une chaîne de caractère, que nous avons attribué dans une variable .
+La fonction close() : arrête toutes les ressources associées à l’ouverture de l’objet, en fermant le fichier (vous avez terminé la lecture, donc vous fermez votre livre).
+La fonction with() : permet de simplifier la gestion des ressources et aide à écrire un code plus expressif.
+
+Exemple:
+    with open('exemple.txt', 'r') as fichier: 
+        contenu = fichier.read() 
+        print(contenu)
+
+La fonction readlines() : pour obtenir une liste de chaînes de caractères contenant les lignes du fichier.
+La fonction write() :  Vous avez deux options pour le faire, ajouter ou écrire dans le fichier. Ajouter, signifie ajouter du contenu à la fin du fichier. Le mode a (append) ouvre le fichier et ajoute du contenu. Par ailleurs, si vous voulez supprimer le contenu existant pour écrire du nouveau texte, Python met à votre disposition le mode w.
+
+La fonction writelines() : Pour écrire plusieurs lignes, vous pouvez utiliser la méthode writelines()en mode a, la méthode prend une liste de chaînes de caractères. Chaque chaîne représente la ligne qui sera ajoutée au fichier.
+Le module pickle : permet d’enregistrer un objet dans un fichier en binaire il permet aussi la récupération (La sérialisation).. 
+
+Exemple :
+import pickle
+
+class player :
+    def __init__(self, name, level) -> int:
+        self.name = name
+        self.level = level
+    
+    def whoami(self):
+        print("{}  ({})".format(self.name, self.level))
+
+p1 = player("Guillaume", 20)
+with open("Player.data", "wb") as fichier_player:
+    record = pickle.Pickler(fichier_player)
+    record.dump(p1)
+    
+print("#"*10)
+with open("Player.data", "rb") as fichier_player:
+    get_record = pickle.Unpickler(fichier_player)
+    player_one = get_record.load()
+    
+player_one.whoami()
