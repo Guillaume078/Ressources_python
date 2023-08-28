@@ -1,0 +1,25 @@
+Les listes 
+Une liste équivaut à un tableau en python.
+Les méthodes de liste travaillent directement sur les variable liste (! = chaine de caractère). une liste peut contenir des chiffres et des chaine de caractere.
+Exemple :   
+    liste = [1, 2, 3,4, “bonjour”, “bonsoir”], inventaire =[“personne”] *5
+    Modifier une liste: liste[2] = “bonne nuit” modifie l’élément d’indice 2.
+Méthodes
+    •   Liste.insert(1, “potion de mana ”) : permet d’insérer l’élément chaine  a position 1  de la liste.
+    •   Liste.index(“valeur”) : retourne l’indice de la valeur dans la liste.
+    •   Liste.sort() : permet de trier une liste
+    •	Liste.reverse() : melange une liste
+    •	Liste.count(“valeur”) : retourne le nombre d’occurrence de valeur dans la liste.
+    •	Liste.clear() : vide tous les éléments de la liste.
+
+Liste2 = liste1 : 
+    clone la liste tous les deux pointe sur le même espace mémoire.	
+Liste2 = copy.deepcopy(liste1) :
+     permet de copier liste1 dans la liste2. 
+Liste1.extend(liste2) : 
+    permet de fusionner le contenu des deux listes mais cette opération n’affecte pas la liste2.
+
+For objet in enumerate(inventaire):
+	Print(objet)
+        
+    Permet de d’énumérer la liste
