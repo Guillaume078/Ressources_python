@@ -1,0 +1,6 @@
+La gestion de temps 
+Le module time possède des fonctions qui permet de gérer le temps sous python :
+•	la fonction sleep() : permet de suspendre un processus
+•	la fonction time() : retourne le temps actuel en seconde 
+•	la fonction localtime() : retourne une structure du temps actuel
+•	la fonction strftime() : permet d’avoir le temps sous forme de chaine
