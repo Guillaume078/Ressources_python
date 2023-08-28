@@ -1,0 +1,4 @@
+Les types d’erreurs
+•	Les erreurs de syntaxe (SyntaxError)
+•	Les erreurs à l’exécution (NameError, TypeError, ...)
+•	Les erreurs sémantiques (des erreurs d’inattentions) peuvent être corrige avec le débugger
