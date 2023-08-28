@@ -1,0 +1,8 @@
+Les Tuples
+Est un conteneur (une manière d’organiser les données) , pour les tuples ils sont immuable(peut pas modifier, ajouter, supprimer )
+Exemple de tuple : mon_tuple = () - mon_tuple = 17,  - mon_tuple = (17,) - mon_tuple = (4, 6) .
+Ils servent de constante pour un programme
+Exemple d’accès : mon_tuple[indice]
+Deux raison dutiliser les tuples :
+•	Affectation multiple
+•	Retour multiple de fonction
