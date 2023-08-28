@@ -1,0 +1,28 @@
+Gestion des erreurs
+Permet de sécuriser nos programmes ..
+En python on utlitse (try , except, else, finally) pour gérer les erreurs
+Exemple: 	
+		try:
+			Age = int(input=”ton age ?”)
+		except:
+			print (“l’Age indiquer est incorrecte”)
+		else:
+			print(“Votre âge est de :”,Age)
+		finally:
+			print(“Fin du programme”)
+try lève une exception
+except capture les exception
+Au niveau de except on peut préciser le type d’erreur a capture.
+Il est possible aussi de créer une exception pour son algorithme.
+Exemple : 
+
+try :
+    age = input("Quel age as-tu ?")
+    age = int(age)
+    
+    assert age < 25 # je veux que age soit plus grand que 25
+    
+except AssertionError: 
+    print("J'ai attrape l'exception")
+
+Raise : permet de levé une exception
