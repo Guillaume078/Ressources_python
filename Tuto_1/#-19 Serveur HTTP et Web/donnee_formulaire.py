@@ -1,0 +1,1 @@
+## en python ya pas de difference entre Get et Post

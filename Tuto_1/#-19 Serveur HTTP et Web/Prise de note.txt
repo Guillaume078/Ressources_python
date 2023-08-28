@@ -1,0 +1,26 @@
+Le module http.server et le module import socketserver sont indispensable pour la création d’un serveur.
+Il y a deux types de http : le serveur http fonctionnel avec du html (statique), le serveur télécharge le fichier html, l’interprète puis l’affiche dans le navigateur.
+En plus on a les serveur dynamique qui doivent intégrer le module cgi ,  ces serveur sont capable d’exécuter et d’afficher un scripte python ou autre langage.
+
+Pour la création d’un serveur il faut : 
+•	Serveur simple
+    o	Une variable port (80)
+    o	Une adresse qui est un tuple qui prend une chaine et un le port : (“”, port)
+    o	Un gestionnaire charger de gérer les requêtes http :
+        Handler = http.server.SimpleHTTPRequestHandler
+    o	Creer et preparer le serveur :
+        Httpd =  socketserver.TCPServer(address, handler)
+    o	Puis lancer la boucle 
+        Httpd.serve_forever()
+
+•	Serveur qui interprète du code :
+    o	On change le gestionnaire :
+        Handler = http.server.CGIHTTPRequestHandler
+    o	Créer une variable server : 
+        Server = http.server.HTTPServer
+    o	Définir le chemin des fichiers :
+        handler.cgi_directories= ["/"]
+    o	Lancer le serveur avec la boucle infinie
+    o	Puis intégrer le module cgi dans chaque fichier python puis spécifier la sortie (texte plain ou html)
+        print("Content-Type: text/html; charset=utf-8")
+
