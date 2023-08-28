@@ -1,0 +1,38 @@
+Les listes ou (tableau dans les autres langage) 
+Dans cette section nous allons prendre à créer et a manipuler des listes. Une liste est un objet mutable.
+•	Ajouter un élément a une liste
+	Pour ajouter un element on utilise la methode append : liste.append(valeur).
+	Pour ajouter plusieur valeur sous forme de liste avec extend : liste.extend([10, 20, 30])
+•	Pour supprimer une valeur on utilise remove : liste.remove().
+•	Récupérer un élément d’une liste à l’aide des indices l’indice: liste[indice]. On peut aussi utilise les slices pour récupérer un certain élément :
+Print(liste[0:1]) : récupère le premier élément.
+•	Autre methodes
+	.index() : récupère la position d’un élément dans une liste 
+	.count() : permet de compter le nombre d’occurrence d’élément dans la liste
+	.sort() : permet de trier une liste par ordre alphabétique elle change en même la liste (ne retourne rien)
+	 .sorted() : trie la liste et retourne la liste trier.
+	.reverse() : permet d’inverser l’ordre de la liste
+	.pop(indice) : supprime un élément grâce a son indice retourne l’élément
+	.clear () : vide entièrement notre liste.
+	“chaine”.join(liste) : joins chaque élément d’une liste avec une chaine de caractère retourne une chaine de caractère. 
+	Liste.split(“”) : retourne une liste et prend en paramètre une chaine de caractère. Séparer sur les espaces, la chaine de caractère spécifié l’élément sur lequel on veut faire la séparation.
+	Les opérateurs d’appartenance
+•	In : (if “paul” in utilisateur) [“java” in “javaScript” reourne true]
+•	Les listes imbriques :liste = [“Python”, “[“java”,”C++”]”,”ruby”]
+Les objets Muable (liste, dictionnaire, set) et immuable (chaine de caractère, nombre) : la différence est les méthodes n’agissent pas sur l’objet en mm temps les objet immuable mais modifie les objet muable.
+Les fonctions supplémentaires
+•	Len() : retourne le nombre de caractère ou nombre d’élément pour une liste.
+•	Round () : permet d’arrondir un nombre a virgule
+•	Min() et Max : reçoivent une liste ou une chaine et retourne le maximum ou minimum
+•	Range(): reçois des nombre qui constituera un intervalle pour retourner une suite de nombre appartenant a l’intervalle et commencent par la borne inferieur.
+
+Les boucles for et while
+Répéter une opération a un certain nombre de fois.
+•	For:  for element in liste: , for i in range(bonjour):
+•	While :  while i < nombre :
+•	Continue : passe la prochaine itération
+•	Break : sortir de la boucle
+•	Les compréhensions de liste : permet d’itérer sur une liste et de filtrer les élément grâce a structure conditionnel. Ex :
+ liste = [-5, -4, -3, -6,  -9,  -5, -7, 0, 1, 3, 4, 5, 6, 7, 8, 9]
+nombres_positifs = [i for i in liste if i > 0].
+
