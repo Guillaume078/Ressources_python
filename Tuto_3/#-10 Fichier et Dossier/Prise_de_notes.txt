@@ -1,0 +1,7 @@
+########## fichier et dossier ###############
+
+
+Permet de sauvegarder nos donnee sur la machine por quelle ne se supprimer apres l'arret du programme
+il est possible d'interargir avec tout type de fichier : modifier, lire , supprimer
+La fonction open("nom_fichier.txt", mode ouverture)
+La methode write("chaine_a_ajouter") permet d'écrir dans un fichier

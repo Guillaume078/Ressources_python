@@ -1,0 +1,4 @@
+############# Les dictionnaire ########
+
+c'est une liste qui vas stocker des clefs chacune associer une valeur
+exemple :  dict{"nom": "Guillaume"}

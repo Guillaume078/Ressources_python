@@ -1,0 +1,14 @@
+############  Les listes    #############
+
+
+len()
+insert(indice, valeur)
+append(valeur)
+extend([liste])
+del liste[indice]
+liste.pop(indice)
+liste.clear()
+liste.remove(valeur)
+Dans le module statistic::   la fonction means() : calcule la moyenne 
+Dans le module random:: la fonction shuffle(): melange la liste
+La fonction liste.split(d'élimiteur) :  permet de decouper une chaine a l'aide d'un délimiteur pour retourner une liste

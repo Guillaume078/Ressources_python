@@ -1,0 +1,6 @@
+############ les boucles  ################
+
+
+for : pour une valeur de depart(1), jusqu'á une valeur d'arrive 
+for  : pour chaque valeur pour une liste donnees
+while  condition :

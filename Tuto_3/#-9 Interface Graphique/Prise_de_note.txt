@@ -1,0 +1,7 @@
+
+############## Interface Graphique ###########
+
+le module tkinter permet de concevoir des interfaces graphique sur python
+Premierement il faut avoir un support surlequel on vas placer nos different elements par exemple une fenetre
+tout dabord il vas falloir importer le module tkinter
+    la fonction Tk() permet de creer une fenetre

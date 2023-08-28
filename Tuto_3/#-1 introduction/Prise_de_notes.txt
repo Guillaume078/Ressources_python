@@ -1,0 +1,7 @@
+Pourquoi python ::
+    Simple a apprendre
+    Tres puissant utiliser dans le monde scientifiaque pour de gros calcul
+    Possède une communautée assez important (pour interargir et echanger , afin de resoudre les differents difficulter)
+   Processus d'installation
+    installer l'interpreteur
+    installer un ide (Editeur--Pycharme, Vs code-----)

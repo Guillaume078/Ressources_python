@@ -1,0 +1,9 @@
+############# Les Objets      #########
+
+permet de representer des concept et des idees
+un objet est une instance d'une classe
+une classe est comme un moule qui representer une entite du monde réel exemple ( voiture, Ecole)
+
+exemple: class players :
+              def __init__(self, parametre,)
+     	        propriete

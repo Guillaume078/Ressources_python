@@ -1,0 +1,9 @@
+########## Les Conditions  ###################
+
+
+les conditions s'utilise avec les operateurs de comparaison, logique, d'identite, d'adhesion 
+les mot cles sur python sont:
+if : si
+else : sinon
+elif : si sinon 
+condition ternaire  : text = (l'achat est possible, l'achat est impossible) [computer_price <= 1000]

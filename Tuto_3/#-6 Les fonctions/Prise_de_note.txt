@@ -1,0 +1,4 @@
+############## Les fonction ############
+
+def nom_fonction(parametre):
+il est aussi possible d'appeler une fonction lors de sa definition

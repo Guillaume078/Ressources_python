@@ -1,0 +1,8 @@
+######### Conventions sur les variables #############
+
+
+les variable permet de stocker des valeurs temporairement dans un programme
+le nom de la variable doit representer une entite dans le monde reel
+le nom ne doit être composer d'espace  
+le nom de la variable ne doit pas débuter par un caractere alphanumerique
+Pas besoin d'inquer le type de la variable, python utilise un typage dynamique

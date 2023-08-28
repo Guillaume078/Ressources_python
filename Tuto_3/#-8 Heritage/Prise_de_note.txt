@@ -1,0 +1,6 @@
+############## Heritage   ##############
+
+
+nous permet de metrre en place une relation de parenté et de dependance entre les classe 
+exemple : class Batimment:
+          class hotel(Batiment):
