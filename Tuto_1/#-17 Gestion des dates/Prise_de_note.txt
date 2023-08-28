@@ -1,0 +1,5 @@
+La gestion des dates :
+Le module datetime  permet la gestion d’une date (creer, modifier, supprimer, comparer), il est compose des classe : date, time, datetime...
+La classe date : permet de gérer que les date, la fonction today() permet de récupérer la date actuelle.
+La classe time : permet de gérer que le temps.
+La classe datetime : permet de gérer la date et le temps, il est composer de la fonction now() qui récupère la date et le temps actuels.
