@@ -1,0 +1,4 @@
+Les modules et fonction
+Un module est un fichier python qui contient des fonctions qu’on peut utiliser (pour manipuler des nombres, gérer le système d’exploitation, convertir des images, créer des sites web...). ils existent des modules qui sont installer avec python , dans Library standard de python .
+Import nom_du_module (import random)
+Pour utiliser une fonction : nom_du_module.Fonction() ... (random.randint()).
