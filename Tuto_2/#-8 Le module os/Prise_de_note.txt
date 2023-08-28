@@ -1,0 +1,18 @@
+Le module OS : on l’utilise pour créer et supprimer des dossiers.
+	Créer un dossier
+•	Récupérer le chemin du dossier
+•	Puis concaténer le chemin avec le nom du dossier avec la fonction join (os.path.join( ,””)
+•	Créer le dossier avec les fonctions mkdir() (ne peut créer plusieurs structure de dossier qui n’existe pas) et makedirs()
+chemin = "\\Users\\USER PC\\Documents\\Formation Python\\Apprendre_Python_A_a_Z"
+chemin_v = chemin.replace("\\","/")
+print(chemin_v)
+dossier = os.path.join(chemin_v, "Dossier", "test")
+print(dossier)
+os.makedirs(dossier)
+
+Ce que l’on peut utiliser a l’intérieur d’un module
+-	Dir(nom_module) permet de faire une introspection (affiche tous les méthodes que l’on peut utiliser a l’intérieur du module) 
+-	Help() permet d’afficher l’aide dune fonction 
+-	La fonction pprint(dir(met la liste en ligne)) du module pprint, affiche les fonction par ordre alphabétique et de façon lisible.
+-	Les objet call able (ce sont des objet appelable) exemple les fonctions disponibles dans un module. Pour vérifier cela il faut utiliser la fonction callable().
+-	Os.name détermine le système d’exploitation installer sur la machine ce ne pas une fonction.
