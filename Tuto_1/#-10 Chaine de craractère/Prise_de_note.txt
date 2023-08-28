@@ -1,0 +1,18 @@
+Chaine de caractère :
+
+La classe str : 
+    c’est la classe pour les chaine de caractère, tous objet chaine de caractère est une instance de la classe str
+    Help(str) : permet de d’afficher la documentation de la classe str. 
+Comme python est un langage fortement typé pas besoin d’indiquer  le type lors de la déclaration dune variable.
+
+    -- Str.center(int, caractère remplissage) : met le caractère de remplissage a gauche et a droite de la chaine de caractère si la valeur donner n’est pas égale a nombre de caractère de la chaine.
+    -- Var_cahine.title() :retourne une valeur de Var_chaine avec  la première lettre de la chaine en majuscule..
+
+Les méthodes de chaine agissent sur une copie de la variable ce qui n’est pas le cas avec les listes.
+
+    --Var_chaine.find(“chaine1”) : retourne l’index de la chaine1.
+    --Var_chaine.index(“chaine1”) == var_chaine.find() la différence est que la méthode index() lève une exception.
+    --str.strip([chars]) Renvoie une copie de la chaîne dont des caractères initiaux et finaux sont supprimés. L'argument chars est une chaîne spécifiant le jeu de caractères à supprimer. En cas d'omission ou None, les caractères d'espacement sont supprimés. 
+        L'argument chars n'est pas un préfixe ni un suffixe, toutes les combinaisons de ses valeurs sont supprimées :
+    --str.replace(ancien, nouvelle [, compteur]) Renvoie une copie de la chaîne dont toutes les occurrences de la sous-chaîne ancien sont remplacées par new.
+         Si l'argument optionnel compteur est donné, seules les compteur premières occurrences sont remplacées.
