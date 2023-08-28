@@ -1,0 +1,8 @@
+Les operateurs sur python
+•	Les operateurs mathématiques de base (+, -, /, *)
+•	Le modulo (%)
+•	La division entière (//)
+•	La puissance (**)
+•	L’incrémentation (i += 1 == i = i + 1)
+•	Les operateurs de comparaison
+-	(<, >, ==, <=, >=, !=)

@@ -1,0 +1,6 @@
+
+nombre_1 = input("\n\n\tEntrez un premier nombre :  ")
+nombre_2 = input("\tEntrez un deuxieme nombre : ") 
+reponse = int(nombre_1) * int(nombre_2)
+resultat = "Le resultat de la multiplication de {nombre1} avec {nombre2} est égal à {reponse}"
+print("\t",resultat.format(nombre1=nombre_1, nombre2=nombre_2, reponse=reponse ))
