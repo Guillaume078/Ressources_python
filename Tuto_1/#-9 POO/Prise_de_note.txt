@@ -1,0 +1,55 @@
+Programmation Orientée objet :  
+
+Poo: est un paradigme (une manière de code C++ est un langage de paradigme),
+    permet d’organiser son code, rend le code lisible, reutilisable, maintenable.
+    Tous est objet en python (Les type de variable).
+Classe : 
+    est comme un plan de conception, genre (ex : humain)
+Objet : 
+    est une instance de classe (ex: julien : est un objet de type humain)
+Attribut : 
+    est une variable de classe (appartient a la classe)
+Propriété : 
+    est une manière de manipuler les attributs(lecture seule, accès non autorise en dehors de la classe, etc.)
+Méthode : 
+    Fonction d’une classe (ex : manger(), parler(), dormir(), mourir() .. Tous ce qu’il est capable de faire humain)
+Méthode de classe : 
+    est une méthode qui vas fonctionner que pour la classe
+Méthode statique : 
+    est une fonction dune classe, mais indépendante de celle-ci (une méthode qui peut être utiliser en dehors d’un objet).
+L’héritage :   
+    une classe qui hérite dune classe mère(les méthode et attribut) exemple : classe Chat hérite de la classe animal.
+
+Classe et attribut
+•	Classe:
+Exemple  :
+class nom_classe :
+
+Propriétés d’encapsulation : 
+
+(la methode property(getter, setter, deleter, helper))
+Contrôler des attributs principe d’encapsulation..
+Possibilité d’ajouter un (_) mais sa change rien on peut toujours accéder a la propriété.
+On peut aussi la méthode Property(), elle encapsule la propriété pour qu’on ne puisse y accéder en dehors de la classe sans passer par la méthode donner en paramètre.
+Force l’accès ou la modification a passer par les méthodes setter, getter.
+
+Héritage:
+
+C’est une manière de créer des classe fille qui hérite dune classe mère (la classe fille hérite de tous les méthodes et attribut)
+Exemple : class voiture(Vehicule):
+Exemple de classe fille : 
+class voiture(Vehicule):
+    def __init__(self, nom_voiture, quantite_essence, puissance):
+        super().__init__(nom_voiture, quantite_essence)
+        self.puissance = puissance
+
+L’héritage multiple est disponible sur python..
+exemple :
+    class Fusil(Arme, ObjetJeu):
+
+Possibilité vérifier qu’une classe fait partie de l'objet renseigner :
+
+Avec la méthode isinstance(objet, classe)
+    print(isinstance(lezard, Animal))
+
+issubclass(classe_fille, classe mère) : vérifie qu’une classe est fille d’une autre.
