@@ -1,0 +1,37 @@
+Introduction A tkinter
+Le module tkinter permet de faire la programmation evennementielle sur python .
+Il dispose de la classe Tk dont on utilise pour instancier nos objets de type fenêtre.
+Tous d’abord est une fenêtre est un widget et les element qui le compose aussi (Bouton, image, texte, canvas etc...).
+Exemple de création de fenêtre:
+		Import tkinter
+		mainApp = tkinter.tk()
+		mainApp.title(“titre”)
+		mainApp.mainloop()
+        
+Les widgets : label, button, message..
+
+Exemple : 
+nom_label = tkinter.Label([racine] , text       =”bonjour”)
+Nom_label.pack()
+		Nom_button = tkinter.button([racine], text=”envoyer”, command= [prend une fonction])
+		Nom_button.pack()
+
+Widgets avancés :
+Voir code....
+
+Variable contrôle
+Les variable que l’on vas utiliser au sein de tkinter..
+On dispose de quatre types de variable avancée dans tkinter (StringVar(), IntVar(), DoubleVar(), BooleanVar()).
+Elle permet de gérer les observations sur un widget. Elle son insérer en tant que paramètre dans le widget : textvariable pour les Label et les Entry et variable pour les bouton radio , checkbox...
+Ces variable dispose d’une méthode appelé trace() qui permet d’appelé une méthode lors de la modification ou la lecture de la variable.
+Exemple : voir code..
+
+Le positionnement widget
+Pour l’organisation des widgets sur une fenêtre  on a recoure a des méthodes de positionnement telle que : {pack(), grid(), place() et le widgets Frame ou FrameLabel  }
+Les méthodes pend des option en paramètre qui ;permet de spécifier la place a  occuper 
+Exemple : voir code.
+
+Création d’un Menu 
+Un menu sous python est compose de barre de menu et celle ci contient des menus ensuite ses menu est composer de sous-menu qui est elle possède chacun un sous menu.
+La méthode Menu() de tkinter permet de créer un widget menu( barre de menu)   et aussi les Menu qui composerons la barre de menu, la methode add_command() permet de creer les sous menu de chaque menu de la barre de menu.
+La méthode Toplevel() de tkinter permet de créer des fenêtre supplémentaire (appelé par la fenêtre principale).
