@@ -1,0 +1,24 @@
+Les types natifs de base (les chaine de caractère les nombres et les booléens) 
+-Ce sont des types de donnée qui permet en programmation la représentation de ce dont vous avez besoin. Ils existent d’autre tuple qui peuvent être construite a partir de ces trois types de base : les types séquentielles (Les tuples, les listes), Les types d’ensembles (set, frozenset) et les types de correspondance (les dictionnaires).
+Chaine de caractère
+\u2764 pour afficher un cœur sur le terminale
+Print(r“c:/tibault/nouveautes”) : r pour que le compilateur ignore la chaine de caractère. 
+Id(var) : vérifier la place en mémoire
+Les affectation : les affection simples, parallèles et multiples
+Simples : a = 2   , parallele : a, b = 2, 8 (a, b = b, a) , multiple : a=b=c=5
+Singleton et Small integer caching
+Singleton : un objet qui est unique (none et les booléen true et false)
+
+Convention de nommage
+    	Ne peut commencer par un chiffre
+    	Ne pas contenir d’espace
+    	Ne peut contenir que des caractères numériques
+    	Certain mon son réservés (print)
+    	En minuscule et séparer chaque par un Under score 
+
+Python est un langage dynamique et fortement type
+Dynamique 
+•	Pas besoin de dire à python quel est le type de la variable.
+•	On peut changer le type dune variable à tout moment
+Fortement Type (#javaScript)
+•	Vous ne pouvez pas ajouter des variables de différents types

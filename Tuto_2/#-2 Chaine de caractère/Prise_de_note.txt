@@ -1,0 +1,28 @@
+
+Les méthodes sur les chaines de caractère
+•	Les méthodes qui permettent la manipulation de la casse 
+    -	Upper()
+    -	Lower()
+    -	Capitalize()
+    -	Title()
+•	Manipulation des chaines de caractères
+    -	Replace(“”,””) 
+    -	Strip(“ ujor”) retire les caractères passer en paramètre -rstrip(), lstrip()-
+•	Séparer et joindre
+    -	Split(“,  ”) retourne une liste (“1, 2, 3, 4, 5,”.split(“, ”))
+    -	(“, ”).Join(type list) retourne une chaine de caractère.(joins “,”  et espace a chaque élément de la liste).
+•	Remplir avec des zéro une chaine de caractère
+    -	“9”.zfill(4) : rajoute 3 zero
+•	Les méthodes << is >>
+    -  	.islower() vérifie si la chaine est en minuscule.
+    -	.istitle() verifie si cest un titre
+    -	Etc
+    -  	.isdigit() vérifie si une chaine de caractère ne contient pas que des nombres
+•	Compter les occurences
+    -	.Count(“”) compter le nombre de caractère présent
+•	Trouver un mot dans une chaine de caractère
+    -	.find(“”)  retourne la position de la chaine (rfind commence a chercher a la fin)
+    -  	.index(“”)
+•	Chercher au début et a la fin
+    -	print("\n",fichier.endswith(".jpg"))
+    -	print("\n",fichier.startswith("image"))
